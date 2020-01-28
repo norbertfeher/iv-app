@@ -5,11 +5,7 @@ const Movie = (videoList) => {
 
     if( videoList.videolist == null )
         return null;
-
-    if( videoList.videolist.hasOwnProperty('results')  ) {
-      //  console.log('VL');
-        //console.log(videoList.videolist.results);
-    }
+    
     const vl = videoList.videolist.results;
     if( typeof vl == 'undefined')
         return  null;
