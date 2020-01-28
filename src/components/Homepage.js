@@ -2,7 +2,6 @@ import React, { useState, useEffect, useContext } from 'react'
 import Movie from "./Movie";
 import ApicallContext from "../context/ApicallContext";
 
-//class HomePage extends React.Component {
 const HomePage = () => {
 
     const [ movieList, setMovieList ] = useState(null);
