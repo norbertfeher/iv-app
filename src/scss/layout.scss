@@ -1,0 +1,39 @@
+
+.movieDatasheet {
+  & .card {
+    margin-top: 30px;
+  }
+  &__image {
+    width: auto;
+    max-width: 100%;
+    max-height: 300px;
+    margin: auto;
+  }
+
+  &__list-span {
+    display: inline-block;
+    margin-left: 5px;
+    &::after {
+      content: ", ";
+    }
+    &:last-child:after {
+      content: " ";
+    }
+  }
+
+  &__list-companies {
+    &__image {
+      max-width: 40px;
+      max-height: 20px;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+
+.header {
+  &__link {
+    display: inline-block;
+    margin: 5px;
+  }
+}
